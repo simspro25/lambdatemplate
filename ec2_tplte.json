@@ -1,0 +1,34 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Metadata": {
+        "AWS::CloudFormation::Designer": {
+            "a9336742-e480-4daf-91d3-2269ff6f53ce": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 418,
+                    "y": 52
+                },
+                "z": 0,
+                "embeds": []
+            }
+        }
+    },
+    "Resources": {
+        "Week12Inst": {
+            "Type": "AWS::EC2::Instance",
+            "Properties": {
+                "InstanceType": "t2.micro",
+                "ImageId": "ami-0841edc20334f9287",
+                "KeyName": "sims-demo",
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "a9336742-e480-4daf-91d3-2269ff6f53ce"
+                }
+            }
+        }
+    }
+}

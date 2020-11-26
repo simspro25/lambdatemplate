@@ -1,0 +1,15 @@
+ 4. Using AWS, create a network file system with Amazon Elastic File Systems (EFS). 
+ Use the AWS Use Cases web page for step-by-step instructions to add the EFS to an instance of an Amazon Linux AMI 2018.03.0. 
+ Take a screenshot of the result and embed it below.  Specifically, take a screenshot of verifying your file system has been successfully mounted, and the results of creating a test file in your new file system by running a simple dd command to generate a 1GiB file in your new directory.
+  Finally, describe the value of a network file system.
+
+https://www.youtube.com/watch?v=f8Yeg4aHX7E
+
+sudo dd if=/dev/zero of=~/efs/1GiB bs=1M count=1024 status=progress
+
+5.create a wordpress website using aws
+
+https://www.youtube.com/watch?v=qEzM2L6OgzE
+
+
+
